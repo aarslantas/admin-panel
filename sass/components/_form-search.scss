@@ -1,0 +1,44 @@
+.form-search{
+
+
+  flex: 0 0 25%;
+
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__search{
+
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    color:#E7E7E7;
+
+    padding: .8rem;
+
+
+
+
+
+  }
+
+  &__button{
+    background: transparent;
+    border: none;
+
+
+    margin-right: .5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__icon{
+    height: 2rem;
+    width: 2rem;
+    fill: #E7E7E7;;
+  }
+}

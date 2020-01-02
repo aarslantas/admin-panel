@@ -1,0 +1,21 @@
+{
+  "name": "admin-panel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+
+  },
+  "keywords": [
+    "admin-panel"
+  ],
+  "author": "abdurrahman arslantas",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
