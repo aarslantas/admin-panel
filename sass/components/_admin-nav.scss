@@ -1,16 +1,29 @@
 .admin-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 
-  &__box{}
+  &__box{
+    margin-right: 1.2rem;
+
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+  }
 
   &__icon{
-    height: 2rem;
-    width: 2rem;
-    fill: blue;
+    height: 1.8rem;
+    width: 1.8rem;
+    fill: #a09a9a;
   }
 
   &__user-photo{
-    width: 2rem;
-    height: 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
   }
 }
