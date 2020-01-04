@@ -1,0 +1,48 @@
+.small-card{
+
+  width: 25rem;
+  height: 9rem;
+
+  font-weight: 300;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 1rem 4rem rgba(black, .15);
+  color: white;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &--blue{
+  background-color: #009dfa;
+  }
+  &--purple{
+    background-color: #7360ed;
+
+  }
+  &--green{
+    background-color: #55ce65;
+  }
+
+  &--orange{
+    background-color: #ffbd35;
+  }
+
+
+  &__texts{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+
+    h1{
+      font-weight: inherit;
+    }
+
+
+  }
+  &__icon{
+    width: 3rem;
+    height: 3rem;
+    fill: white;
+  }
+}
