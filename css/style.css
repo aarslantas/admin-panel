@@ -120,6 +120,60 @@ body {
     height: 3rem;
     fill: white; }
 
+.selling-categories {
+  margin-top: 2rem;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+  width: 25%; }
+  .selling-categories__heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    display: block;
+    border-bottom: 1px solid #ddd; }
+  .selling-categories__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .selling-categories__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .5rem 1rem;
+    border-bottom: 1px solid #ddd; }
+    .selling-categories__item img {
+      width: 3rem;
+      height: 5rem;
+      padding: .2rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-right: .5rem; }
+    .selling-categories__item progress {
+      height: 3px;
+      width: 100%;
+      background-color: #d4d4d4;
+      border-radius: 2px; }
+    .selling-categories__item progress::-webkit-progress-bar {
+      border-radius: 2px;
+      background-color: #d4d4d4;
+      width: 100%; }
+    .selling-categories__item progress::-webkit-progress-value {
+      border-radius: 2px;
+      background-color: #ffbd35; }
+    .selling-categories__item progress::-moz-progress-bar {
+      border-radius: 2px;
+      width: 100%; }
+  .selling-categories__textsAndProgress {
+    flex: 0 0 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .selling-categories__texts {
+    display: flex;
+    justify-content: space-between; }
+
 .sidebar-nav {
   list-style: none; }
   .sidebar-nav__item {
@@ -150,7 +204,7 @@ body {
     font-weight: 300; }
 
 .site-map {
-  flex: 0 0 15%;
+  height: 10rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -214,12 +268,10 @@ body {
   margin-top: -2.2rem; }
 
 .content {
-  flex: 0 0 90%;
   display: flex;
   justify-content: flex-start; }
 
 .container {
-  height: 100vh;
   display: flex;
   flex-direction: column; }
 
@@ -246,7 +298,6 @@ body {
   flex-direction: column; }
 
 .sub-main-content {
-  flex: 0 0 85%;
   padding: 0 4rem;
   display: flex;
   flex-direction: column;
